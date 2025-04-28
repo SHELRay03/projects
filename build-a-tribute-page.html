@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    html {
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+  </style>
+</head>
+
+<body>
+  <main id="main">
+    <h1 id="title">袁隆平</h1>
+    <p>杂交水稻之父，解决了无数人的温饱问题</p>
+    <figure id="img-div">
+      <img
+        id="image"
+        src="https://tse2-mm.cn.bing.net/th/id/OIP-C.EX3ojPqUYbfxdJgw8QZkdAHaFS?w=317&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7"  alt="袁隆平在稻田中工作的照片"
+      />
+      <figcaption id="img-caption">
+        袁隆平在田间专注地观察水稻生长情况，致力于提高水稻产量，为全球粮食安全做出了卓越贡献。
+      </figcaption>
+    </figure>
+    <section id="tribute-info">
+      <h3 id="headline">以下是袁隆平的生平时间线：</h3>
+      <ul>
+        <li><strong>1930年</strong> - 出生于北京</li>
+        <li>
+          <strong>1953年</strong> - 毕业于西南农学院（现西南大学）农学系，之后被分配到湖南安江农校任教。
+        </li>
+        <li>
+          <strong>1960年</strong> - 在稻田中发现一株“天然杂交稻”，从此开始了他对杂交水稻的研究探索之路。
+        </li>
+        <li>
+          <strong>1964年</strong> - 开始研究杂交水稻，经过多年努力，在1966年发表第一篇重要论文《水稻的雄性不孕性》。
+        </li>
+        <li>
+          <strong>1973年</strong> - 成功实现杂交水稻“三系”配套，选育出第一个在生产上大面积应用的强优高产杂交水稻组合——南优2号。
+        </li>
+        <li>
+          <strong>1981年</strong> - 获得新中国第一个国家特等发明奖，这是对他在杂交水稻领域杰出贡献的高度认可。
+        </li>
+        <li>
+          <strong>1987年</strong> - 提出“杂交水稻育种的战略设想”，为杂交水稻的长远发展指明方向。
+        </li>
+        <li>
+          <strong>1995年</strong> - 被评为中国工程院院士，成为农业领域的杰出代表。
+        </li>
+        <li>
+          <strong>1996年</strong> - 我国启动“超级杂交稻计划”，袁隆平领衔开展攻关，不断刷新水稻高产纪录。
+        </li>
+        <li>
+          <strong>2001年</strong> - 获得首届国家最高科学技术奖，这是我国科技界的最高荣誉。
+        </li>
+        <li>
+          <strong>2017年</strong> - 带领团队在海水稻研究方面取得重要进展，为扩大耕地资源利用做出新贡献。
+        </li>
+        <li>
+          <strong>2020年</strong> - 团队杂交水稻双季亩产突破1500公斤大关，再创世界纪录。
+        </li>
+        <li><strong>2021年</strong> - 于湖南长沙逝世，享年91岁。</li>
+      </ul>
+      <blockquote
+        cite="https://news.cctv.com/china/20070522/103926.shtml" 
+      >
+        <p>
+          “人就像一粒种子，要做一粒好种子，身体、精神、情感都要健康。种子健康了，我们每个人的事业才能根深叶茂，枝粗果硕。”
+        </p>
+        <cite>-- 袁隆平</cite>
+      </blockquote>
+      <h3>
+        你可以在他的
+        <a
+          id="tribute-link"
+          href="https://baike.baidu.com/item/%E8%A2%81%E9%9A%86%E5%B9%B3/43836"
+          target="_blank"
+          >百科页面</a
+        >
+        上阅读更多关于这位伟人的信息。
+      </h3>
+    </section>
+  </main>
+</body>
+
+</html>
